@@ -1,6 +1,6 @@
                                                 PROYECTO BB.DD. - "BOY SCOUTS"
 
-                                             _Autor_: **Saúl Altoubah León (SAL)**
+                                               Autor: Saúl Altoubah León (SAL)
 
 En este archivo README.md contiene los siguientes archivos mostrados en este árbol:
 
@@ -35,7 +35,6 @@ C:.
     └───sal_boy_scouts_bd
 ~~~
 
--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
 
 El índice del archivo PDF es el siguiente:
