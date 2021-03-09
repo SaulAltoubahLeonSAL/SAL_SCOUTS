@@ -1,4 +1,6 @@
-#PROYECTO BB.DD. - "BOY SCOUTS
+# PROYECTO BB.DD. - "BOY SCOUTS
+[SCOUTS_flor_lis.jpg]
+## **_Autor_**: Saúl Altoubah León
 
 En este archivo README.md contiene los siguientes archivos mostrados en este árbol:
 
