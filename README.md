@@ -6,7 +6,6 @@ En este archivo README.md contiene los siguientes archivos mostrados en este ár
 
 ~~~
 C:.
-│   .gitignore
 │   indice_proyecto_pdf_SCOUTS.txt
 │   README.md
 │
