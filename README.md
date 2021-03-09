@@ -1,10 +1,4 @@
-                                                PROYECTO BB.DD. - "BOY SCOUTS"
-		
-							[SCOUTS_flor_lis.jpg]
-								
-                                               Autor: Saúl Altoubah León (SAL)
-
-							
+#PROYECTO BB.DD. - "BOY SCOUTS
 
 En este archivo README.md contiene los siguientes archivos mostrados en este árbol:
 
