@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A6B0ECF-5E2E-2F86-4D52-D307534459A8" containerWithKeyObject="8576EF62-7804-463C-8DEF-BE9D6DAB8DC3" localFKIndex="3D92106A-89F6-0F58-F5BB-738DE7378382" name="SAL_PRESIDENTE_SAL_PERSONAL_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>F8D74004-12DA-2CB8-B035-BC65E1A9ED61</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<referredTableLongName>SAL_PERSONAL</referredTableLongName>
+<arc>69340431-480E-894B-1AAB-4D5ACB0259D9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D99703DA-C8DB-AB3C-8732-E5158D60982A</referredTableID>
+<keyObject>C893F42D-6E49-5823-25A5-0F49D2151EC1</keyObject>
+<referredKeyID>C893F42D-6E49-5823-25A5-0F49D2151EC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_personal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

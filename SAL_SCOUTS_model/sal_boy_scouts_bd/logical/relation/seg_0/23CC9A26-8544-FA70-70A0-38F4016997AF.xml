@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SAL_ENTIDAD_FACTURA_MATERIAL" directorySegmentName="seg_0" id="23CC9A26-8544-FA70-70A0-38F4016997AF">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 19:52:16 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<sourcePk>3EC493CD-60AF-473B-33F3-DFE7DAC6E4D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>55A22320-7A1A-BF29-17A5-787C47216A5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>69ECC931-4795-4452-4C2D-DF603B149299</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F89C013C-BE2B-8CD9-E4D2-5873DD97BDD1" containerWithKeyObject="B64A169E-D586-4F89-7D08-EEFCE800E0D0" localFKIndex="5995FF0B-12BE-1DCD-DE33-849B45282CBB" name="SAL_PROYECTO_SAL_RESP_COM_RRSS_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<generatorID>C0457B1D-55DC-361C-456C-4FF45A79F33A</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<referredTableLongName>SAL_RESP_COM_RRSS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7815A6DA-661D-262B-2547-BE3C1D421C07</referredTableID>
+<keyObject>596D1C1A-7FF3-2B1D-648B-544E1E921315</keyObject>
+<referredKeyID>596D1C1A-7FF3-2B1D-648B-544E1E921315</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_resp_com_rrss</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

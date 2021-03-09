@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5CCD004B-9A89-F4E0-2F36-E778298321BC" containerWithKeyObject="B64A169E-D586-4F89-7D08-EEFCE800E0D0" localFKIndex="233DECA7-D20B-3F64-909F-96558A5F58A5" name="SAL_PROYECTO_SAL_GRUPO_SCOUT_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<generatorID>EE1B85A9-035B-7633-5265-1F1BF4426C08</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<referredTableLongName>SAL_GRUPO_SCOUT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEFD0695-6611-5991-49B2-24B5E8CAD04A</referredTableID>
+<keyObject>1BB263DA-AF83-9BE3-34AF-F072AA11BD69</keyObject>
+<referredKeyID>1BB263DA-AF83-9BE3-34AF-F072AA11BD69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_grupo_scout</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

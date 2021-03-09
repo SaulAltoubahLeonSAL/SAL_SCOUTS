@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72FF4A31-84D2-99A2-37EA-54AC3E5D047F" name="SAL_MATERIAL">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 12:07:29 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_material" id="ADC11005-8041-C1D3-75E7-3AF3E4167806">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 12:07:36 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_material" id="2046133A-54E4-D194-C7CC-F3009871E984">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 12:08:41 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_material" id="A01D8CFC-5057-B9FE-6AF4-48D02ABC107C">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 12:09:27 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="F659699D-62C8-E59B-8794-8BCFA26F087A">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 12:09:08 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>max</dataTypeSize>
+<ownDataTypeParameters>max,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_inventario" id="B8F93813-42E0-1AA7-DE9F-1BFB966B2A9B">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 19:51:24 UTC</createdTime>
+<generatorID>30733646-A24C-2FF0-C382-9758C4257AEB</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>56124D59-194A-871E-DB92-BD8F7AA0F8AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE3DA9EE-F33B-CDFF-F686-A11DCC6D6D72" name="SAL_material PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 12:07:44 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADC11005-8041-C1D3-75E7-3AF3E4167806</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

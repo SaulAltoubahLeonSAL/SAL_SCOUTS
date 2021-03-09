@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="462EDC47-C1A8-B70E-D799-8058023436FD" name="SAL_PIONEROS">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>AE76B4AB-EE19-C674-0CF5-084530BD6CD2</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_grupo_scout" id="9DEC80DF-463C-89CA-9B01-7DED7C844324">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>AADEA849-E433-DFD2-01D7-05D08B8AB936</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32670CD2-C880-5279-3352-85CE0BA891D6" referredColumn="C7EBC9D9-9613-E441-2E59-9C64AD61B6E1"/>
+</associations>
+</Column>
+<Column name="simbolo_pioneros" id="A1D83EC4-EC3D-13EC-B0F5-08FE4F8CEFD3">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>56F87A54-9D0D-77D6-92FB-D666055B9E9C</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_pioneros" id="39138345-778F-2F59-15F9-4D5987346C9E">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>4DC66169-F3B2-EDB0-2D31-982958BB2442</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_grupos_pioneros" id="46DBEE84-CC8E-1930-2653-DAA5C862FA4D">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>4BAD7F9C-418F-841F-DFD4-396A01198FFD</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DAAD333-1863-B5B3-8084-8F4332C74C59" name="SAL_PIONEROS_PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>5913F36E-10C5-9F32-CBD8-70E172793BFE</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DEC80DF-463C-89CA-9B01-7DED7C844324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F35F354F-A9DC-736F-CED7-D74BFBE7DFE2" name="SAL_PIONEROS_SAL_GRUPO_SCOUT_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>93D54448-84CB-51FA-3B2D-2921EBD5FACA</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DEC80DF-463C-89CA-9B01-7DED7C844324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

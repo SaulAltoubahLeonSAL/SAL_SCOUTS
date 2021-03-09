@@ -1,0 +1,6 @@
+#Ignora todos los archivos que tengan la extensión .tmp, .docx, .rar, .zip, .7z
+*.tmp
+*.docx
+*.rar
+*.zip
+*.7z

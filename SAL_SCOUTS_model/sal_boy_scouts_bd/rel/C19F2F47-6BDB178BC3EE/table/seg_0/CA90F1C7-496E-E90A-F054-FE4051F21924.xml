@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA90F1C7-496E-E90A-F054-FE4051F21924" name="SAL_DONACION">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>EBF4F882-5CE5-119D-E52B-60691E2118B4</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_recaudacion" id="51847DA5-927F-5450-0D5B-E1F67584B5BD">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>BA003165-A2FA-F9F5-9E06-3F862BB91E2E</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_donacion" id="7BBD563D-E0B2-1C0B-E13B-A741C45E2E68">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>D9FEF604-D87B-5A13-B976-C5EC9024C357</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_donante" id="CBE6C863-3489-5030-33E3-1F590DE9AC77">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>938AF52C-8964-03D6-18B2-4474ED13A0FF</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="importe" id="9B1F07E9-5848-A10B-7717-CD418B510F65">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>CB0D747B-35C0-0145-3E96-A33A219D81C2</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAL_EVENTOS_ID_evento" id="6569B254-FF0D-2BC4-CA91-059D46BF8CA1">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>E2F78522-E600-4BE3-E4C9-6E76DD61F145</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F52751B2-EBA8-5C5E-8FFB-A71F3E323E58" referredColumn="C0AA57B5-F781-4D3B-7F30-981EE52C36B2"/>
+</associations>
+</Column>
+<Column name="SAL_TESORERO_ID_personal" id="7B30DC8F-E3D7-072F-B0E3-80E2511035E6">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>582A1343-17D1-951F-52A5-BF7FC171C540</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="449A7392-C2AA-BCDB-D240-9A32D639DBA8" referredColumn="797206BD-82BB-9E4C-7F61-042CB3957886"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4CDEC2B-912A-3AAB-5DF2-CC53FB0CEBEA" name="SAL_DONACION_PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>1C38496E-6299-3A85-54FF-21BA76546058</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51847DA5-927F-5450-0D5B-E1F67584B5BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00AFE026-F8CD-6BBB-6500-D94D83F4A27F" name="SAL_DONACION_SAL_EVENTOS_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<generatorID>49701F7F-D003-D20D-69EA-A08292178581</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6569B254-FF0D-2BC4-CA91-059D46BF8CA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC602255-ED20-164A-2811-88A012C95123" name="SAL_DONACION_SAL_TESORERO_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<generatorID>4FC06F32-AB93-37EA-0CF5-F0110B15A07C</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B30DC8F-E3D7-072F-B0E3-80E2511035E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC885FC2-8EF7-09B5-8B1E-E4BF5ED96170" name="SAL_INVENTARIO">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 09:44:26 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_inventario" id="56124D59-194A-871E-DB92-BD8F7AA0F8AC">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 09:44:34 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_inventario" id="E4A62C3F-382A-810C-70B8-539FE6C82B44">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 09:48:23 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C4519AF5-B97F-97F4-9861-5481F8154622">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 09:56:04 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>max</dataTypeSize>
+<ownDataTypeParameters>max,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_resp_materiales" id="F2CA3134-EC46-3DC4-0FB1-3DCE3CD09A89">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:06:24 UTC</createdTime>
+<generatorID>14F952CF-C5A9-7BDC-4761-E9B2E80F7778</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>4E7DB1E2-A136-1E2F-DA78-0F3002636768</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3BDE50C-F44C-A4F7-E2DF-D432C946B0E6" name="SAL_inventario PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 09:48:05 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56124D59-194A-871E-DB92-BD8F7AA0F8AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

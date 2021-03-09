@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="376C2206-6C95-DE61-A0E3-44AA959ADA4F" containerWithKeyObject="4794F67A-B9A8-A5B4-7A67-3B9D5EB96D89" localFKIndex="D39581D3-C983-40B2-77A2-2EE0FDD1FC6D" name="SAL_EVENTOS_SAL_COORDINADOR_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>CE60F169-E9D6-7A95-4888-1EC5AC5A7C93</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<referredTableLongName>SAL_COORDINADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B0E1F05-6E9D-4F02-2E49-BE181C0D1913</referredTableID>
+<keyObject>9A843996-E391-A2DB-9409-199C023C630B</keyObject>
+<referredKeyID>9A843996-E391-A2DB-9409-199C023C630B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_coordinador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

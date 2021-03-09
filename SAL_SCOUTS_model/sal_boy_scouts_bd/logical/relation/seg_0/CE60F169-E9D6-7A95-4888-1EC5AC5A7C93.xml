@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SAL_EVENTOS_COORDINADOR" directorySegmentName="seg_0" id="CE60F169-E9D6-7A95-4888-1EC5AC5A7C93">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:09:13 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<sourcePk>C72892E3-AECC-90CB-2245-C84CB67450C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA824469-FDE4-983B-8BF7-3308C7942E94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8AC93DB-517F-BCB9-B263-4F5640B20DD8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

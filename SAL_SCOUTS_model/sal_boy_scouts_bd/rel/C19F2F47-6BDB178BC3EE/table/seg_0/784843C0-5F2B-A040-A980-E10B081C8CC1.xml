@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="784843C0-5F2B-A040-A980-E10B081C8CC1" name="SAL_ENTIDAD">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>55A22320-7A1A-BF29-17A5-787C47216A5E</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_entidad" id="00779E6F-A580-12CB-5084-32D11CC4D494">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>F851E06C-E215-6CD6-51DC-EA75D9191A3A</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIF" id="3402BAA8-EA0E-C2CF-32BC-08546804485C">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>1A5AC5CA-31CF-8E12-3366-3AFDA48F071D</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_entidad" id="EB710948-43E7-80F3-65B8-329440CDEF88">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>E5CC4165-4815-5F84-10CB-90BC94176606</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="E97DAA60-2464-4307-8159-2DF25C29ED53">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>D4C854EE-64B5-3A2E-6AAB-16FB58ACFBD0</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="865B003C-67B1-B9FB-9036-7D0C5AE0E815">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>5CD433E3-5299-C464-9799-647EF8A02445</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="8BBC1AF4-1D9D-C3B4-1EAC-504EB31B87C0">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>948F61F6-D8F9-29AE-4626-71AD6D603457</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA694F83-C18D-2BA9-9EF2-4B1B44BC45ED" name="SAL_ENTIDAD_PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>3EC493CD-60AF-473B-33F3-DFE7DAC6E4D4</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00779E6F-A580-12CB-5084-32D11CC4D494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC412830-FE44-3BEE-EE8F-E8975ABC7C3A" name="SAL_CIF_ENTIDAD_UK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 22:23:31 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3402BAA8-EA0E-C2CF-32BC-08546804485C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

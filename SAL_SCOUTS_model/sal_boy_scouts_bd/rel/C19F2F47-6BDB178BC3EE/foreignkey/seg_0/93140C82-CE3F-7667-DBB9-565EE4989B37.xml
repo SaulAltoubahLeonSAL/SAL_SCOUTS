@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93140C82-CE3F-7667-DBB9-565EE4989B37" containerWithKeyObject="7B4DE4E0-FC3D-EC70-1B1E-6FA7E23E7549" localFKIndex="DCD7E667-5041-82BD-166E-F8B08FE05039" name="SAL_FACTURA_MATERIAL_SAL_ENTIDAD_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>23CC9A26-8544-FA70-70A0-38F4016997AF</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<referredTableLongName>SAL_ENTIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>784843C0-5F2B-A040-A980-E10B081C8CC1</referredTableID>
+<keyObject>EA694F83-C18D-2BA9-9EF2-4B1B44BC45ED</keyObject>
+<referredKeyID>EA694F83-C18D-2BA9-9EF2-4B1B44BC45ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_entidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

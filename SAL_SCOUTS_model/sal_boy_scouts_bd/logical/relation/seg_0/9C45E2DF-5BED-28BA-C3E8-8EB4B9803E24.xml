@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SAL_INVENTARIO_PROYECTO" directorySegmentName="seg_0" id="9C45E2DF-5BED-28BA-C3E8-8EB4B9803E24">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:01:45 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<sourcePk>E3BDE50C-F44C-A4F7-E2DF-D432C946B0E6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC885FC2-8EF7-09B5-8B1E-E4BF5ED96170</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B72DB8A-64E0-3693-9372-F480D356B19B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

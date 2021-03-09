@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8AC93DB-517F-BCB9-B263-4F5640B20DD8" name="SAL_EVENTOS">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:22:37 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_evento" id="93AA2C7F-1628-3CD3-29A1-49D9D2CE5C6A">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:22:50 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_evento" id="254DD5FF-F9AE-1432-249C-3814AC0FFD93">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:23:03 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_inicio" id="32C9B3BC-E31B-D60E-6BBA-BCB09A80B9D4">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:23:23 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_final" id="A8190174-FDF4-C2E8-86E4-E134EC6CCEA3">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:23:38 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugar" id="E6113A7C-99B6-94F9-EE26-FF4F35A18661">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 19:15:32 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="objetivo" id="5DFFC127-0DB7-8D5C-91D0-18F937C57DF0">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-18 10:03:31 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>max</dataTypeSize>
+<ownDataTypeParameters>max,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="EAFE2BA4-416A-FC34-86E0-BE37A58B9A1A">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:23:50 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>max</dataTypeSize>
+<ownDataTypeParameters>max,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_grupo_scout" id="7D6F3F17-8E8B-CC1B-A3B7-1E30CBECB10E">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 19:48:58 UTC</createdTime>
+<generatorID>467F3265-A16C-9555-40A9-4289870D08BD</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>AADEA849-E433-DFD2-01D7-05D08B8AB936</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_entidad" id="2B9AA4E0-D41D-3A57-7DCF-B64472AD3E10">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:08:46 UTC</createdTime>
+<generatorID>34F643D5-CEBB-6071-CD16-230DBEA3791E</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>F851E06C-E215-6CD6-51DC-EA75D9191A3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_coordinador" id="F250FCD8-5C24-94F1-19C5-A9D3D4DAE1D5">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:09:13 UTC</createdTime>
+<generatorID>CE60F169-E9D6-7A95-4888-1EC5AC5A7C93</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>4E7DB1E2-A136-1E2F-DA78-0F3002636768</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_resp_com_rrss" id="FEED6F67-F8E9-AE47-A56E-D5A122472F76">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:09:49 UTC</createdTime>
+<generatorID>D669DA08-5CC4-B36B-08B9-4818B997018E</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>4E7DB1E2-A136-1E2F-DA78-0F3002636768</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_scouter" id="8EA5B813-E837-05B0-3804-19AD0D2DF92E">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:11:23 UTC</createdTime>
+<generatorID>94DE2975-D2A5-4C61-88E2-A86798F22442</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<referedAttribute>4E7DB1E2-A136-1E2F-DA78-0F3002636768</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E93E1C0-50A1-3687-DCEC-4A775EAF50C5" name="SAL_eventos PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-17 16:23:03 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93AA2C7F-1628-3CD3-29A1-49D9D2CE5C6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

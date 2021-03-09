@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5B48FF5-05EC-A5A3-05A1-1CCF31887688" name="SAL_RESPONSABLE">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>4E0278A6-05A0-A2A9-DB48-987A33E2270E</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_responsable" id="882228F5-398C-A5F1-3871-521A8DDFD17A">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>4E7DB1E2-A136-1E2F-DA78-0F3002636768</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC2033A0-9E13-9E86-7347-7B11E44E897A" referredColumn="8023C6EB-EE6F-8132-24B3-A1AA9209A798"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84A8D634-9820-23BC-7F53-43A50B986694" name="SAL_RESPONSABLE_PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>C72892E3-AECC-90CB-2245-C84CB67450C3</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="882228F5-398C-A5F1-3871-521A8DDFD17A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7B5469B-2F0D-791D-8ABF-D94B8A4BF5C8" name="SAL_RESPONSABLE_SAL_PERSONAL_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>507872FF-1714-3D89-E4B4-69827C2A8B94</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="882228F5-398C-A5F1-3871-521A8DDFD17A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

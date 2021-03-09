@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SAL_PERSONAL_INSIGNIA" directorySegmentName="seg_0" id="35E1572D-B02F-A66A-07B2-E613EC9C310B">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 19:50:35 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<engineerTo>
+<item key="C19F2F47-C01E-CD4B-78A1-6BDB178BC3EE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C48028D7-248B-7D94-32B6-177BF2ED4133</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B007113-40C5-3CB4-C18D-3800E8080AAE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

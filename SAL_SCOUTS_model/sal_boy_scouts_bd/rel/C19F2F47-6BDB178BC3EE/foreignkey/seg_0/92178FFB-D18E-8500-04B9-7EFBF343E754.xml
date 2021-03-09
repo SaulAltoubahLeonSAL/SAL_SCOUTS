@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="92178FFB-D18E-8500-04B9-7EFBF343E754" containerWithKeyObject="26CE8E16-75E1-24E7-3CE5-2C661718BD98" localFKIndex="7884A9C6-B034-5582-E3DC-0B4E5CC2180E" name="SAL_ENTIDAD_MATERIAL_SAL_MATERIAL_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:21 UTC</createdTime>
+<generatorID>6545182D-16F6-D746-1FA2-9803960939F0</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<referredTableLongName>SAL_MATERIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA1EF2FB-66E2-0919-F811-B54D96A628C7</referredTableID>
+<keyObject>29FF5048-EF03-B291-82E9-C2525950AC92</keyObject>
+<referredKeyID>29FF5048-EF03-B291-82E9-C2525950AC92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_material</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

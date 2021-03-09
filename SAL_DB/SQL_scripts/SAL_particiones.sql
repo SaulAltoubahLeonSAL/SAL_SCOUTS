@@ -1,0 +1,1499 @@
+USE master
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Enero2017;
+GO
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Febrero2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Marzo2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Abril2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Mayo2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Junio2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Julio2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Agosto2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Septiembre2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Octubre2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Noviembre2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Diciembre2017;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Enero2018;
+GO
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Febrero2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Marzo2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Abril2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Mayo2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Junio2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Julio2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Agosto2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Septiembre2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Octubre2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Noviembre2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Diciembre2018;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Enero2019;
+GO
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Febrero2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Marzo2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Abril2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Mayo2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Junio2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Julio2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Agosto2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Septiembre2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Octubre2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Noviembre2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Diciembre2019;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Enero2020;
+GO
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Febrero2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Marzo2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Abril2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Mayo2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Junio2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Julio2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Agosto2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Septiembre2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Octubre2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Noviembre2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Diciembre2020;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Enero2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Febrero2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Marzo2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Abril2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Mayo2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Junio2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Julio2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Agosto2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Septiembre2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Octubre2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Noviembre2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP Diciembre2021;
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR
+	ADD FILEGROUP SAL_SCOUTS_III;
+GO
+
+USE SAL_SCOUTS_JR
+GO
+
+-- Verifica los filegroups creados y disponibles en la base de datos actual
+Select name AS AvalilableFilegroups
+	FROM sys.filegroups
+	WHERE type = 'FG'
+GO
+
+	-- AvaliableFilegroups
+-- PRIMARY
+-- Enero2017
+-- Febrero2017
+-- Marzo2017
+-- Abril2017
+-- Mayo2017
+-- Junio2017
+-- Agosto2017
+-- Septiembre2017
+-- Octubre2017
+-- Noviembre2017
+-- Diciembre2017
+-- Enero2018
+-- Febrero2018
+-- Marzo2018
+-- Abril2018
+-- Mayo2018
+-- Junio2018
+-- Agosto2018
+-- Septiembre2018
+-- Octubre2018
+-- Noviembre2018
+-- Diciembre2018
+-- Enero2019
+-- Febrero2019
+-- Marzo2019
+-- Abril2019
+-- Mayo2019
+-- Junio2019
+-- Agosto2019
+-- Septiembre2019
+-- Octubre2019
+-- Noviembre2019
+-- Diciembre2019
+-- Enero2020
+-- Febrero2020
+-- Marzo2020
+-- Abril2020
+-- Mayo2020
+-- Junio2020
+-- Agosto2020
+-- Septiembre2020
+-- Octubre2020
+-- Noviembre2020
+-- Diciembre2020
+-- Enero2021
+-- Febrero2021
+-- Marzo2021
+-- Abril2021
+-- Mayo2021
+-- Junio2021
+-- Julio2021
+-- Agosto2021
+-- Septiembre2021
+-- Octubre2021
+-- Noviembre2021
+-- Diciembre2021
+-- Julio2017
+-- Julio2018
+-- Julio2019
+-- Julio2020
+-- SAL_SCOUTS_II
+
+USE master
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartEne2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene_2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Enero2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartFeb2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb_2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Febrero2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMar2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar_2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Marzo2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAbr2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Abril2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMay2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Mayo2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJun2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Junio2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJul2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Julio2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAgo2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Agosto2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartSep2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Septiembre2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartOct2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Octubre2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartNov2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Noviembre2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartDic2017,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2017.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Diciembre2017];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartEne2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Enero2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartFeb2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Febrero2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMar2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Marzo2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAbr2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Abril2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMay2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Mayo2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJun2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Junio2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJul2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Julio2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAgo2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Agosto2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartSep2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Septiembre2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartOct2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Octubre2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartNov2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Noviembre2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartDic2018,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2018.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Diciembre2018];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartEne2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Enero2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartFeb2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Febrero2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMar2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Marzo2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAbr2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Abril2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMay2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Mayo2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJun2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Junio2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJul2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Julio2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAgo2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Agosto2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartSep2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Septiembre2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartOct2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Octubre2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartNov2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Noviembre2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartDic2019,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2019.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Diciembre2019];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartEne2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Enero2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartFeb2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Febrero2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMar2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Marzo2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAbr2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Abril2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMay2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Mayo2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJun2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Junio2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJul2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Julio2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAgo2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Agosto2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartSep2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Septiembre2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartOct2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Octubre2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartNov2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Noviembre2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartDic2020,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2020.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Diciembre2020];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartEne2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Enero2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartFeb2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Febrero2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMar2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Marzo2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAbr2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Abril2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartMay2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Mayo2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJun2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Junio2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartJul2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Julio2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartAgo2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Agosto2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartSep2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Septiembre2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartOct2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Octubre2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartNov2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Noviembre2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = PartDic2021,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2021.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [Diciembre2021];
+GO
+
+ALTER DATABASE SAL_SCOUTS_JR 
+	ADD FILE (
+		NAME = SAL_SCOUTS_III,
+		FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_SAL_III.ndf',
+		SIZE = 1024 MB,
+		MAXSIZE = UNLIMITED,
+		FILEGROWTH = 64 MB
+) TO FILEGROUP [SAL_SCOUTS_III];
+GO
+
+USE SAL_SCOUTS_JR
+GO
+
+-- Realizamos una consulta a la tabla del sistema sys.database_files
+-- para indicar los directorios de los archivos del sistema de la base de datos en uso,
+-- excepto los de registro
+SELECT name AS [NomArchivo], physical_name AS [Directorio]
+FROM sys.database_files
+where type_desc = 'ROWS'
+GO
+
+-- NomArchivo		Directorio
+-- SAL_SCOUTS_JR	C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR.mdf
+-- PartEne2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene_2017.ndf
+-- PartFeb2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb_2017.ndf
+-- PartMar2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar_2017.ndf
+-- PartAbr2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2017.ndf
+-- PartMay2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2017.ndf
+-- PartJun2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2017.ndf
+-- PartJul2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2017.ndf
+-- PartAgo2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2017.ndf
+-- PartSep2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2017.ndf
+-- PartOct2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2017.ndf
+-- PartNov2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2017.ndf
+-- PartDic2017		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2017.ndf
+-- PartEne2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2018.ndf
+-- PartFeb2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2018.ndf
+-- PartMar2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2018.ndf
+-- PartAbr2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2018.ndf
+-- PartMay2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2018.ndf
+-- PartJun2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2018.ndf
+-- PartJul2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2018.ndf
+-- PartAgo2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2018.ndf
+-- PartSep2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2018.ndf
+-- PartOct2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2018.ndf
+-- PartNov2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2018.ndf
+-- PartDic2018		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2018.ndf
+-- PartEne2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2019.ndf
+-- PartFeb2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2019.ndf
+-- PartMar2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2019.ndf
+-- PartAbr2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2019.ndf
+-- PartMay2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2019.ndf
+-- PartJun2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2019.ndf
+-- PartJul2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2019.ndf
+-- PartAgo2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2019.ndf
+-- PartSep2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2019.ndf
+-- PartOct2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2019.ndf
+-- PartNov2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2019.ndf
+-- PartDic2019		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2019.ndf
+-- PartEne2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2020.ndf
+-- PartFeb2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2020.ndf
+-- PartMar2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2020.ndf
+-- PartAbr2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2020.ndf
+-- PartMay2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2020.ndf
+-- PartJun2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2020.ndf
+-- PartJul2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2020.ndf
+-- PartAgo2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2020.ndf
+-- PartSep2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2020.ndf
+-- PartOct2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2020.ndf
+-- PartNov2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2020.ndf
+-- PartDic2020		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2020.ndf
+-- PartEne2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ene2021.ndf
+-- PartFeb2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_feb2021.ndf
+-- PartMar2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_mar2021.ndf
+-- PartAbr2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_abr2021.ndf
+-- PartMay2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_may2021.ndf
+-- PartJun2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jun2021.ndf
+-- PartJul2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_jul2021.ndf
+-- PartAgo2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_ago2021.ndf
+-- PartSep2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_sep2021.ndf
+-- PartOct2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_oct2021.ndf
+-- PartNov2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_nov2021.ndf
+-- PartDic2021		C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_dic2021.ndf
+-- SAL_SCOUTS_III	C:\Program Files\Microsoft SQL Server\MSSQL14.SALSCOUTS\MSSQL\DATA\SAL_SCOUTS_JR_SAL_III.ndf
+
+
+
+CREATE PARTITION FUNCTION SAL_fechas_FN (date) 
+AS RANGE RIGHT 
+	FOR VALUES 
+	('2017-01-01','2017-02-01','2017-03-01','2017-04-01','2017-05-01','2017-06-01','2017-07-01','2017-08-01','2017-09-01','2017-10-01','2017-11-01','2017-12-01',
+	'2018-01-01','2018-02-01','2018-03-01','2018-04-01','2018-05-01','2018-06-01','2018-07-01','2018-08-01','2018-09-01','2018-10-01','2018-11-01','2018-12-01',
+	'2019-01-01','2019-02-01','2019-03-01','2019-04-01','2019-05-01','2019-06-01','2019-07-01','2019-08-01','2019-09-01','2019-10-01','2019-11-01','2019-12-01',
+	'2020-01-01','2020-02-01','2020-03-01','2020-04-01','2020-05-01','2020-06-01','2020-07-01','2020-08-01','2020-09-01','2020-10-01','2020-11-01','2020-12-01',
+	'2021-01-01','2021-02-01','2021-03-01','2021-04-01','2021-05-01','2021-06-01','2021-07-01','2021-08-01','2021-09-01','2021-10-01');
+GO
+
+
+
+
+
+CREATE PARTITION SCHEME SAL_esq_fechas
+AS PARTITION SAL_fechas_FN
+TO (SAL_SCOUTS_III,
+	Enero2017,Febrero2017,Marzo2017,Abril2017,Mayo2017,Junio2017,Julio2017,Agosto2017,Septiembre2017,Octubre2017,Noviembre2017,Diciembre2017,
+	Enero2018,Febrero2018,Marzo2018,Abril2018,Mayo2018,Junio2018,Julio2018,Agosto2018,Septiembre2018,Octubre2018,Noviembre2018,Diciembre2018,
+	Enero2019,Febrero2019,Marzo2019,Abril2019,Mayo2019,Junio2019,Julio2019,Agosto2019,Septiembre2019,Octubre2019,Noviembre2019,Diciembre2019,
+	Enero2020,Febrero2020,Marzo2020,Abril2020,Mayo2020,Junio2020,Julio2020,Agosto2020,Septiembre2020,Octubre2020,Noviembre2020,Diciembre2020,
+	Enero2021,Febrero2021,Marzo2021,Abril2021,Mayo2021,Junio2021,Julio2021,Agosto2021,Septiembre2021,Octubre2021,Noviembre2021,Diciembre2021
+);
+GO
+-- Partition scheme 'SAL_esq_fechas' has been created successfully. 'Diciembre2021' is marked as the next used filegroup in partition scheme 'SAL_esq_fechas'.
+
+
+DROP TABLE IF EXISTS SAL_facturas_fecha
+GO
+
+select * from SAL_facturas_fecha
+GO
+
+
+
+
+SELECT 
+p.partition_number AS PartitionNumber,
+f.name AS PartitionFilegroup, 
+p.rows AS NumberOfRows 
+FROM sys.partitions p
+JOIN sys.destination_data_spaces dds ON p.partition_number = dds.destination_id
+JOIN sys.filegroups f ON dds.data_space_id = f.data_space_id
+WHERE OBJECT_NAME(OBJECT_ID) = 'SAL_facturas_fecha' ORDER BY PartitionNumber ASC;
+GO
+
+
+
+SELECT $Partition.SAL_fechas_FN(fecha_compra) AS NumFilegroup, *
+FROM SAL_facturas_fecha
+GO
+
+
+select name, create_date, value from sys.partition_functions f 
+inner join sys.partition_range_values rv 
+on f.function_id=rv.function_id 
+where f.name = 'SAL_fechas_FN'
+go
+
+
+
+DECLARE @TableName NVARCHAR(200) = N'SAL_facturas_fecha' 
+SELECT SCHEMA_NAME(o.schema_id) + '.' + OBJECT_NAME(i.object_id) AS [object] , p.partition_number AS [p#] , fg.name AS [filegroup] , p.rows , au.total_pages AS pages , CASE boundary_value_on_right WHEN 1 THEN 'less than' ELSE 'less than or equal to' END as comparison , rv.value , CONVERT (VARCHAR(6), CONVERT (INT, SUBSTRING (au.first_page, 6, 1) + SUBSTRING (au.first_page, 5, 1))) + ':' + CONVERT (VARCHAR(20), CONVERT (INT, SUBSTRING (au.first_page, 4, 1) + SUBSTRING (au.first_page, 3, 1) + SUBSTRING (au.first_page, 2, 1) + SUBSTRING (au.first_page, 1, 1))) AS first_page FROM sys.partitions p INNER JOIN sys.indexes i ON p.object_id = i.object_id AND p.index_id = i.index_id INNER JOIN sys.objects o
+ON p.object_id = o.object_id INNER JOIN sys.system_internals_allocation_units au ON p.partition_id = au.container_id INNER JOIN sys.partition_schemes ps ON ps.data_space_id = i.data_space_id INNER JOIN sys.partition_functions f ON f.function_id = ps.function_id INNER JOIN sys.destination_data_spaces dds ON dds.partition_scheme_id = ps.data_space_id AND dds.destination_id = p.partition_number INNER JOIN sys.filegroups fg ON dds.data_space_id = fg.data_space_id LEFT OUTER JOIN sys.partition_range_values rv ON f.function_id = rv.function_id AND p.partition_number = rv.boundary_id WHERE i.index_id < 2 AND o.object_id = OBJECT_ID(@TableName) 
+ORDER BY p# ASC;
+GO
+
+
+-- SPLIT
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	SPLIT RANGE ('2021-11-01'); 
+GO
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	0		0		less than	2017-01-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	2	Enero2017		4		9		less than	2017-02-01 00:00:00.000	3:32480
+-- dbo.SAL_facturas_fecha	3	Febrero2017		6		9		less than	2017-03-01 00:00:00.000	4:40608
+-- dbo.SAL_facturas_fecha	4	Marzo2017		6		9		less than	2017-04-01 00:00:00.000	5:40608
+-- dbo.SAL_facturas_fecha	5	Abril2017		5		9		less than	2017-05-01 00:00:00.000	6:40608
+-- dbo.SAL_facturas_fecha	6	Mayo2017		7		9		less than	2017-06-01 00:00:00.000	7:40608
+-- dbo.SAL_facturas_fecha	7	Junio2017		4		9		less than	2017-07-01 00:00:00.000	8:40608
+-- dbo.SAL_facturas_fecha	8	Julio2017		6		9		less than	2017-08-01 00:00:00.000	59:40608
+-- dbo.SAL_facturas_fecha	9	Agosto2017		2		9		less than	2017-09-01 00:00:00.000	9:40608
+-- dbo.SAL_facturas_fecha	10	Septiembre2017	6		9		less than	2017-10-01 00:00:00.000	10:40608
+-- dbo.SAL_facturas_fecha	11	Octubre2017		1		9		less than	2017-11-01 00:00:00.000	11:40608
+-- dbo.SAL_facturas_fecha	12	Noviembre2017	3		9		less than	2017-12-01 00:00:00.000	12:40608
+-- dbo.SAL_facturas_fecha	13	Diciembre2017	1		9		less than	2018-01-01 00:00:00.000	13:40608
+-- dbo.SAL_facturas_fecha	14	Enero2018		4		9		less than	2018-02-01 00:00:00.000	14:40608
+-- dbo.SAL_facturas_fecha	15	Febrero2018		3		9		less than	2018-03-01 00:00:00.000	15:40608
+-- dbo.SAL_facturas_fecha	16	Marzo2018		6		9		less than	2018-04-01 00:00:00.000	16:40608
+-- dbo.SAL_facturas_fecha	17	Abril2018		4		9		less than	2018-05-01 00:00:00.000	17:40608
+-- dbo.SAL_facturas_fecha	18	Mayo2018		4		9		less than	2018-06-01 00:00:00.000	18:40608
+-- dbo.SAL_facturas_fecha	19	Junio2018		1		9		less than	2018-07-01 00:00:00.000	19:40608
+-- dbo.SAL_facturas_fecha	20	Julio2018		3		9		less than	2018-08-01 00:00:00.000	60:40608
+-- dbo.SAL_facturas_fecha	21	Agosto2018		8		9		less than	2018-09-01 00:00:00.000	20:40608
+-- dbo.SAL_facturas_fecha	22	Septiembre2018	4		9		less than	2018-10-01 00:00:00.000	21:40608
+-- dbo.SAL_facturas_fecha	23	Octubre2018		3		9		less than	2018-11-01 00:00:00.000	22:40608
+-- dbo.SAL_facturas_fecha	24	Noviembre2018	5		9		less than	2018-12-01 00:00:00.000	23:40608
+-- dbo.SAL_facturas_fecha	25	Diciembre2018	8		9		less than	2019-01-01 00:00:00.000	24:40608
+-- dbo.SAL_facturas_fecha	26	Enero2019		2		9		less than	2019-02-01 00:00:00.000	25:40608
+-- dbo.SAL_facturas_fecha	27	Febrero2019		1		9		less than	2019-03-01 00:00:00.000	26:40608
+-- dbo.SAL_facturas_fecha	28	Marzo2019		1		9		less than	2019-04-01 00:00:00.000	27:40608
+-- dbo.SAL_facturas_fecha	29	Abril2019		6		9		less than	2019-05-01 00:00:00.000	28:40608
+-- dbo.SAL_facturas_fecha	30	Mayo2019		5		9		less than	2019-06-01 00:00:00.000	29:40608
+-- dbo.SAL_facturas_fecha	31	Junio2019		5		9		less than	2019-07-01 00:00:00.000	30:40608
+-- dbo.SAL_facturas_fecha	32	Julio2019		4		9		less than	2019-08-01 00:00:00.000	61:40608
+-- dbo.SAL_facturas_fecha	33	Agosto2019		3		9		less than	2019-09-01 00:00:00.000	31:40608
+-- dbo.SAL_facturas_fecha	34	Septiembre2019	2		9		less than	2019-10-01 00:00:00.000	32:40608
+-- dbo.SAL_facturas_fecha	35	Octubre2019		1		9		less than	2019-11-01 00:00:00.000	33:40608
+-- dbo.SAL_facturas_fecha	36	Noviembre2019	6		9		less than	2019-12-01 00:00:00.000	34:40608
+-- dbo.SAL_facturas_fecha	37	Diciembre2019	9		9		less than	2020-01-01 00:00:00.000	35:40608
+-- dbo.SAL_facturas_fecha	38	Enero2020		6		9		less than	2020-02-01 00:00:00.000	36:40608
+-- dbo.SAL_facturas_fecha	39	Febrero2020		4		9		less than	2020-03-01 00:00:00.000	37:40608
+-- dbo.SAL_facturas_fecha	40	Marzo2020		4		9		less than	2020-04-01 00:00:00.000	38:40608
+-- dbo.SAL_facturas_fecha	41	Abril2020		4		9		less than	2020-05-01 00:00:00.000	39:40608
+-- dbo.SAL_facturas_fecha	42	Mayo2020		4		9		less than	2020-06-01 00:00:00.000	40:40608
+-- dbo.SAL_facturas_fecha	43	Junio2020		3		9		less than	2020-07-01 00:00:00.000	41:40608
+-- dbo.SAL_facturas_fecha	44	Julio2020		4		9		less than	2020-08-01 00:00:00.000	62:40608
+-- dbo.SAL_facturas_fecha	45	Agosto2020		7		9		less than	2020-09-01 00:00:00.000	42:40608
+-- dbo.SAL_facturas_fecha	46	Septiembre2020	6		9		less than	2020-10-01 00:00:00.000	43:40608
+-- dbo.SAL_facturas_fecha	47	Octubre2020		4		9		less than	2020-11-01 00:00:00.000	44:40608
+-- dbo.SAL_facturas_fecha	48	Noviembre2020	4		9		less than	2020-12-01 00:00:00.000	45:40608
+-- dbo.SAL_facturas_fecha	49	Diciembre2020	1		9		less than	2021-01-01 00:00:00.000	46:40608
+-- dbo.SAL_facturas_fecha	50	Enero2021		2		9		less than	2021-02-01 00:00:00.000	47:40608
+-- dbo.SAL_facturas_fecha	51	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	52	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	53	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	54	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	55	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	56	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	57	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	58	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	59	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	60	Noviembre2021	0		0		less than	NULL	0:0
+
+
+-- MERGE 
+-- fusionamos las particiones del año 2017
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-01-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-02-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-03-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-04-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-05-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-06-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-07-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-08-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-09-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-10-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-11-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2017-12-01');
+GO
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	54		9		less than	2017-01-01 00:00:00.000	59:16192
+-- dbo.SAL_facturas_fecha	2	Enero2018		4		9		less than	2018-02-01 00:00:00.000	14:40608
+-- dbo.SAL_facturas_fecha	3	Febrero2018		3		9		less than	2018-03-01 00:00:00.000	15:40608
+-- dbo.SAL_facturas_fecha	4	Marzo2018		6		9		less than	2018-04-01 00:00:00.000	16:40608
+-- dbo.SAL_facturas_fecha	5	Abril2018		4		9		less than	2018-05-01 00:00:00.000	17:40608
+-- dbo.SAL_facturas_fecha	6	Mayo2018		4		9		less than	2018-06-01 00:00:00.000	18:40608
+-- dbo.SAL_facturas_fecha	7	Junio2018		1		9		less than	2018-07-01 00:00:00.000	19:40608
+-- dbo.SAL_facturas_fecha	8	Julio2018		3		9		less than	2018-08-01 00:00:00.000	60:40608
+-- dbo.SAL_facturas_fecha	9	Agosto2018		8		9		less than	2018-09-01 00:00:00.000	20:40608
+-- dbo.SAL_facturas_fecha	10	Septiembre2018	4		9		less than	2018-10-01 00:00:00.000	21:40608
+-- dbo.SAL_facturas_fecha	11	Octubre2018		3		9		less than	2018-11-01 00:00:00.000	22:40608
+-- dbo.SAL_facturas_fecha	12	Noviembre2018	5		9		less than	2018-12-01 00:00:00.000	23:40608
+-- dbo.SAL_facturas_fecha	13	Diciembre2018	8		9		less than	2019-01-01 00:00:00.000	24:40608
+-- dbo.SAL_facturas_fecha	14	Enero2019		2		9		less than	2019-02-01 00:00:00.000	25:40608
+-- dbo.SAL_facturas_fecha	15	Febrero2019		1		9		less than	2019-03-01 00:00:00.000	26:40608
+-- dbo.SAL_facturas_fecha	16	Marzo2019		1		9		less than	2019-04-01 00:00:00.000	27:40608
+-- dbo.SAL_facturas_fecha	17	Abril2019		6		9		less than	2019-05-01 00:00:00.000	28:40608
+-- dbo.SAL_facturas_fecha	18	Mayo2019		5		9		less than	2019-06-01 00:00:00.000	29:40608
+-- dbo.SAL_facturas_fecha	19	Junio2019		5		9		less than	2019-07-01 00:00:00.000	30:40608
+-- dbo.SAL_facturas_fecha	20	Julio2019		4		9		less than	2019-08-01 00:00:00.000	61:40608
+-- dbo.SAL_facturas_fecha	21	Agosto2019		3		9		less than	2019-09-01 00:00:00.000	31:40608
+-- dbo.SAL_facturas_fecha	22	Septiembre2019	2		9		less than	2019-10-01 00:00:00.000	32:40608
+-- dbo.SAL_facturas_fecha	23	Octubre2019		1		9		less than	2019-11-01 00:00:00.000	33:40608
+-- dbo.SAL_facturas_fecha	24	Noviembre2019	6		9		less than	2019-12-01 00:00:00.000	34:40608
+-- dbo.SAL_facturas_fecha	25	Diciembre2019	9		9		less than	2020-01-01 00:00:00.000	35:40608
+-- dbo.SAL_facturas_fecha	26	Enero2020		6		9		less than	2020-02-01 00:00:00.000	36:40608
+-- dbo.SAL_facturas_fecha	27	Febrero2020		4		9		less than	2020-03-01 00:00:00.000	37:40608
+-- dbo.SAL_facturas_fecha	28	Marzo2020		4		9		less than	2020-04-01 00:00:00.000	38:40608
+-- dbo.SAL_facturas_fecha	29	Abril2020		4		9		less than	2020-05-01 00:00:00.000	39:40608
+-- dbo.SAL_facturas_fecha	30	Mayo2020		4		9		less than	2020-06-01 00:00:00.000	40:40608
+-- dbo.SAL_facturas_fecha	31	Junio2020		3		9		less than	2020-07-01 00:00:00.000	41:40608
+-- dbo.SAL_facturas_fecha	32	Julio2020		4		9		less than	2020-08-01 00:00:00.000	62:40608
+-- dbo.SAL_facturas_fecha	33	Agosto2020		7		9		less than	2020-09-01 00:00:00.000	42:40608
+-- dbo.SAL_facturas_fecha	34	Septiembre2020	6		9		less than	2020-10-01 00:00:00.000	43:40608
+-- dbo.SAL_facturas_fecha	35	Octubre2020		4		9		less than	2020-11-01 00:00:00.000	44:40608
+-- dbo.SAL_facturas_fecha	36	Noviembre2020	4		9		less than	2020-12-01 00:00:00.000	45:40608
+-- dbo.SAL_facturas_fecha	37	Diciembre2020	1		9		less than	2021-01-01 00:00:00.000	46:40608
+-- dbo.SAL_facturas_fecha	38	Enero2021		2		9		less than	2021-02-01 00:00:00.000	47:40608
+-- dbo.SAL_facturas_fecha	39	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	40	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	41	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	42	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	43	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	44	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	45	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	46	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	47	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	48	Noviembre2021	0		0		less than	NULL	0:0
+
+-- fusionamos las particiones del año 2018
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-01-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-02-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-03-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-04-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-05-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-06-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-07-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-08-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-09-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-10-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2018-11-01');
+GO
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	104		9		less than	2017-01-01 00:00:00.000	63:16192
+-- dbo.SAL_facturas_fecha	2	Enero2019		2		9		less than	2019-02-01 00:00:00.000	25:40608
+-- dbo.SAL_facturas_fecha	3	Febrero2019		1		9		less than	2019-03-01 00:00:00.000	26:40608
+-- dbo.SAL_facturas_fecha	4	Marzo2019		1		9		less than	2019-04-01 00:00:00.000	27:40608
+-- dbo.SAL_facturas_fecha	5	Abril2019		6		9		less than	2019-05-01 00:00:00.000	28:40608
+-- dbo.SAL_facturas_fecha	6	Mayo2019		5		9		less than	2019-06-01 00:00:00.000	29:40608
+-- dbo.SAL_facturas_fecha	7	Junio2019		5		9		less than	2019-07-01 00:00:00.000	30:40608
+-- dbo.SAL_facturas_fecha	8	Julio2019		4		9		less than	2019-08-01 00:00:00.000	61:40608
+-- dbo.SAL_facturas_fecha	9	Agosto2019		3		9		less than	2019-09-01 00:00:00.000	31:40608
+-- dbo.SAL_facturas_fecha	10	Septiembre2019	2		9		less than	2019-10-01 00:00:00.000	32:40608
+-- dbo.SAL_facturas_fecha	11	Octubre2019		1		9		less than	2019-11-01 00:00:00.000	33:40608
+-- dbo.SAL_facturas_fecha	12	Noviembre2019	6		9		less than	2019-12-01 00:00:00.000	34:40608
+-- dbo.SAL_facturas_fecha	13	Diciembre2019	9		9		less than	2020-01-01 00:00:00.000	35:40608
+-- dbo.SAL_facturas_fecha	14	Enero2020		6		9		less than	2020-02-01 00:00:00.000	36:40608
+-- dbo.SAL_facturas_fecha	15	Febrero2020		4		9		less than	2020-03-01 00:00:00.000	37:40608
+-- dbo.SAL_facturas_fecha	16	Marzo2020		4		9		less than	2020-04-01 00:00:00.000	38:40608
+-- dbo.SAL_facturas_fecha	17	Abril2020		4		9		less than	2020-05-01 00:00:00.000	39:40608
+-- dbo.SAL_facturas_fecha	18	Mayo2020		4		9		less than	2020-06-01 00:00:00.000	40:40608
+-- dbo.SAL_facturas_fecha	19	Junio2020		3		9		less than	2020-07-01 00:00:00.000	41:40608
+-- dbo.SAL_facturas_fecha	20	Julio2020		4		9		less than	2020-08-01 00:00:00.000	62:40608
+-- dbo.SAL_facturas_fecha	21	Agosto2020		7		9		less than	2020-09-01 00:00:00.000	42:40608
+-- dbo.SAL_facturas_fecha	22	Septiembre2020	6		9		less than	2020-10-01 00:00:00.000	43:40608
+-- dbo.SAL_facturas_fecha	23	Octubre2020		4		9		less than	2020-11-01 00:00:00.000	44:40608
+-- dbo.SAL_facturas_fecha	24	Noviembre2020	4		9		less than	2020-12-01 00:00:00.000	45:40608
+-- dbo.SAL_facturas_fecha	25	Diciembre2020	1		9		less than	2021-01-01 00:00:00.000	46:40608
+-- dbo.SAL_facturas_fecha	26	Enero2021		2		9		less than	2021-02-01 00:00:00.000	47:40608
+-- dbo.SAL_facturas_fecha	27	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	28	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	29	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	30	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	31	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	32	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	33	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	34	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	35	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	36	Noviembre2021	0		0		less than	NULL	0:0
+
+-- fusionamos las particiones del año 2019
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-01-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-02-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-03-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-04-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-05-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-06-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-07-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-08-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-09-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-10-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-11-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2019-12-01');
+GO
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	149		9		less than	2017-01-01 00:00:00.000	63:16192
+-- dbo.SAL_facturas_fecha	2	Enero2020		6		9		less than	2020-02-01 00:00:00.000	36:40608
+-- dbo.SAL_facturas_fecha	3	Febrero2020		4		9		less than	2020-03-01 00:00:00.000	37:40608
+-- dbo.SAL_facturas_fecha	4	Marzo2020		4		9		less than	2020-04-01 00:00:00.000	38:40608
+-- dbo.SAL_facturas_fecha	5	Abril2020		4		9		less than	2020-05-01 00:00:00.000	39:40608
+-- dbo.SAL_facturas_fecha	6	Mayo2020		4		9		less than	2020-06-01 00:00:00.000	40:40608
+-- dbo.SAL_facturas_fecha	7	Junio2020		3		9		less than	2020-07-01 00:00:00.000	41:40608
+-- dbo.SAL_facturas_fecha	8	Julio2020		4		9		less than	2020-08-01 00:00:00.000	62:40608
+-- dbo.SAL_facturas_fecha	9	Agosto2020		7		9		less than	2020-09-01 00:00:00.000	42:40608
+-- dbo.SAL_facturas_fecha	10	Septiembre2020	6		9		less than	2020-10-01 00:00:00.000	43:40608
+-- dbo.SAL_facturas_fecha	11	Octubre2020		4		9		less than	2020-11-01 00:00:00.000	44:40608
+-- dbo.SAL_facturas_fecha	12	Noviembre2020	4		9		less than	2020-12-01 00:00:00.000	45:40608
+-- dbo.SAL_facturas_fecha	13	Diciembre2020	1		9		less than	2021-01-01 00:00:00.000	46:40608
+-- dbo.SAL_facturas_fecha	14	Enero2021		2		9		less than	2021-02-01 00:00:00.000	47:40608
+-- dbo.SAL_facturas_fecha	15	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	16	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	17	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	18	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	19	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	20	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	21	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	22	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	23	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	24	Noviembre2021	0		0		less than	NULL	0:0
+
+-- fusionamos las particiones del año 2020
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-01-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-02-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-03-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-04-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-05-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-06-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-07-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-08-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-09-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-10-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-11-01');
+GO
+ALTER PARTITION FUNCTION SAL_fechas_FN() 
+	MERGE RANGE ('2020-12-01');
+GO
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	200		9		less than	2017-01-01 00:00:00.000	63:16192
+-- dbo.SAL_facturas_fecha	2	Enero2021		2		9		less than	2021-03-01 00:00:00.000	47:40608
+-- dbo.SAL_facturas_fecha	3	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	4	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	5	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	6	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	7	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	8	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	9	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	10	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	11	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	12	Noviembre2021	0		0		less than	NULL	0:0
+
+
+
+
+
+-- SWTICH
+
+DROP TABLE IF EXISTS SAL_facturas
+GO
+
+CREATE TABLE SAL_facturas (
+	fecha_compra DATE NOT NULL,
+	producto NVARCHAR(100) NOT NULL,
+	cantidad INT NOT NULL,
+	precio MONEY NOT NULL,
+	Subtotal MONEY NOT NULL,
+	Total MONEY NOT NULL
+) ON SAL_SCOUTS_III;
+GO
+
+ALTER TABLE dbo.SAL_facturas_fecha 
+	SWITCH PARTITION 1 TO SAL_facturas
+GO
+
+-- Cambiamos el nombre de la tabla nueva
+EXEC sp_rename SAL_facturas, SAL_facturas_antiguas
+GO
+
+-- filas entre 2017 y 2020
+SELECT * FROM SAL_facturas_antiguas
+GO
+
+-- filas del año 2021
+SELECT * FROM SAL_facturas_fecha;
+GO
+
+
+-- TRUNCATE
+
+DECLARE @TableName NVARCHAR(200) = N'SAL_facturas_fecha' 
+SELECT SCHEMA_NAME(o.schema_id) + '.' + OBJECT_NAME(i.object_id) AS [object] , p.partition_number AS [p#] , fg.name AS [filegroup] , p.rows , au.total_pages AS pages , CASE boundary_value_on_right WHEN 1 THEN 'less than' ELSE 'less than or equal to' END as comparison , rv.value , CONVERT (VARCHAR(6), CONVERT (INT, SUBSTRING (au.first_page, 6, 1) + SUBSTRING (au.first_page, 5, 1))) + ':' + CONVERT (VARCHAR(20), CONVERT (INT, SUBSTRING (au.first_page, 4, 1) + SUBSTRING (au.first_page, 3, 1) + SUBSTRING (au.first_page, 2, 1) + SUBSTRING (au.first_page, 1, 1))) AS first_page FROM sys.partitions p INNER JOIN sys.indexes i ON p.object_id = i.object_id AND p.index_id = i.index_id INNER JOIN sys.objects o
+ON p.object_id = o.object_id INNER JOIN sys.system_internals_allocation_units au ON p.partition_id = au.container_id INNER JOIN sys.partition_schemes ps ON ps.data_space_id = i.data_space_id INNER JOIN sys.partition_functions f ON f.function_id = ps.function_id INNER JOIN sys.destination_data_spaces dds ON dds.partition_scheme_id = ps.data_space_id AND dds.destination_id = p.partition_number INNER JOIN sys.filegroups fg ON dds.data_space_id = fg.data_space_id LEFT OUTER JOIN sys.partition_range_values rv ON f.function_id = rv.function_id AND p.partition_number = rv.boundary_id WHERE i.index_id < 2 AND o.object_id = OBJECT_ID(@TableName) 
+ORDER BY p# ASC;
+GO
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	0		0		less than	2017-01-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	2	Enero2021		2		9		less than	2021-03-01 00:00:00.000	47:48736
+-- dbo.SAL_facturas_fecha	3	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	4	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	5	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	6	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	7	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	8	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	9	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	10	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	11	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	12	Noviembre2021	0		0		less than	NULL	0:0
+
+-- Quitamos las filas del año 2021
+TRUNCATE TABLE SAL_facturas_fecha
+	WITH (PARTITIONS (2));
+go
+
+-- object					p#	filegroup		rows	pages	comparison	first_page
+-- dbo.SAL_facturas_fecha	1	SAL_SCOUTS_III	0		0		less than	2017-01-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	2	Enero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	3	Febrero2021		0		0		less than	2021-03-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	4	Marzo2021		0		0		less than	2021-04-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	5	Abril2021		0		0		less than	2021-05-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	6	Mayo2021		0		0		less than	2021-06-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	7	Junio2021		0		0		less than	2021-07-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	8	Julio2021		0		0		less than	2021-08-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	9	Agosto2021		0		0		less than	2021-09-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	10	Septiembre2021	0		0		less than	2021-10-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	11	Octubre2021		0		0		less than	2021-11-01 00:00:00.000	0:0
+-- dbo.SAL_facturas_fecha	12	Noviembre2021	0		0		less than	NULL	0:0
+
+select * from SAL_facturas_fecha
+GO
