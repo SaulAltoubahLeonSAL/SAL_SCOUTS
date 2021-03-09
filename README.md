@@ -1,8 +1,10 @@
-#----------- PROYECTO BB.DD. - "BOY SCOUTS" -----------
+                                                PROYECTO BB.DD. - "BOY SCOUTS"
 
-_Autor_: **Saúl Altoubah León (SAL)**
+                                             _Autor_: **Saúl Altoubah León (SAL)**
 
 En este archivo README.md contiene los siguientes archivos mostrados en este árbol:
+
+~~~
 
 C:.
 │   .gitignore
@@ -31,6 +33,7 @@ C:.
     │   SAL_SCOUTS_relational_model.pdf
     │
     └───sal_boy_scouts_bd
+~~~
 
 -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
