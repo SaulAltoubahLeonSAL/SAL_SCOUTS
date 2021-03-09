@@ -107,7 +107,7 @@ El índice del archivo PDF es el siguiente:
 4. Git
  4.1. Instalación
  4.2. Funcionamiento - Comandos
- 4.3. Github - Gitlab - BitBucket
+ 4.3. Github - Gitlab - BitBucket - Tortoise Git
 
 ~~~
 
