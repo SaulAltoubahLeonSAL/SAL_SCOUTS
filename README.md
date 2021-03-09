@@ -1,11 +1,14 @@
                                                 PROYECTO BB.DD. - "BOY SCOUTS"
-
+		
+							[SCOUTS_flor_lis.jpg]
+								
                                                Autor: Saúl Altoubah León (SAL)
+
+							
 
 En este archivo README.md contiene los siguientes archivos mostrados en este árbol:
 
 ~~~
-
 C:.
 │   .gitignore
 │   indice_proyecto_pdf_SCOUTS.txt
@@ -42,7 +45,6 @@ El índice del archivo PDF es el siguiente:
 ÍNDICE
 
 ~~~
-
 1. Introducción
 2. Virtualización de máquinas virtuales en VMware
  2.1. Adaptadores de red
@@ -113,4 +115,4 @@ El índice del archivo PDF es el siguiente:
  4.3. Github - Gitlab - BitBucket
 
 ~~~
------------------------------------------------------FIN-------------------------------------------------------
+
