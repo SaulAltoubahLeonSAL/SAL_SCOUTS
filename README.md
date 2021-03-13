@@ -24,13 +24,14 @@ C:.
 │           SAL_triggers.sql
 │           SAL_users_views_permissions.sql
 │
-└───SAL_SCOUTS_model
-    │   sal_boy_scouts_bd.dmd
-    │   SAL_SCOUTS_logical_model.pdf
-    │   SAL_SCOUTS_physical_diagram.pdf
-    │   SAL_SCOUTS_relational_model.pdf
-    │
-    └───sal_boy_scouts_bd
+├───SAL_SCOUTS_model
+│   │   sal_boy_scouts_bd.dmd
+│   │   SAL_SCOUTS_logical_model.pdf
+│   │   SAL_SCOUTS_physical_diagram.pdf
+│   │   SAL_SCOUTS_relational_model.pdf
+│   │
+│   └───sal_boy_scouts_bd
+└───SAL_proyecto_SCOUTS.pdf
 ~~~
 
 
