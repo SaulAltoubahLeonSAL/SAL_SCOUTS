@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B62DFB10-3F8B-B8E0-F37E-77DF975F955B" name="SAL_SCOUT_INSIGNIA">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SAL_INSIGNIA_ID_insignia" id="F7B2702E-1E7E-470A-B381-BAE933169287">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F7A7CB7-F678-839C-9AE7-AE709FC8BDC1" referredColumn="14B73628-A758-94C3-5DCC-2E27C5938997"/>
+</associations>
+</Column>
+<Column name="SAL_SCOUT_ID_scout" id="67BCA760-78E9-4DAB-8906-0983284BC49D">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15AEC85D-71CC-CEA8-B1EF-23CFD01AD491" referredColumn="25073341-CEC6-3813-7B53-ECD8217C759C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D35BE05E-3388-04CD-E681-93113E9F18A8" name="SAL_SCOUT_INSIGNIA_PK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7B2702E-1E7E-470A-B381-BAE933169287"/>
+<colUsage columnID="67BCA760-78E9-4DAB-8906-0983284BC49D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24C8AC4B-F655-19E8-6749-C05D706758CD" name="SAL_SCOUT_INSIGNIA_SAL_INSIGNIA_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<generatorID>093CFB3F-577C-8956-4F2C-EA5DEDD23B95</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7B2702E-1E7E-470A-B381-BAE933169287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADA9E86D-A864-060C-ABDF-6382DADFA80D" name="SAL_SCOUT_INSIGNIA_SAL_SCOUT_FK">
+<createdBy>Sassaulo</createdBy>
+<createdTime>2021-02-28 20:14:22 UTC</createdTime>
+<generatorID>093CFB3F-577C-8956-4F2C-EA5DEDD23B95</generatorID>
+<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67BCA760-78E9-4DAB-8906-0983284BC49D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
