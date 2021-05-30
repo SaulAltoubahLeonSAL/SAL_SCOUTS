@@ -2,36 +2,39 @@
 ![logo](/SCOUTS_flor_lis.jpg)
 ## **_Autor_**: Saúl Altoubah León
 
-En este archivo README.md contiene los siguientes archivos mostrados en este árbol:
+En este archivo README.md se han creado 2 partes del proyecto SAL_SCOUTS: 1ª parte - Modelado y Administración, 2ª parte - Seguridad.
+
+# 1ª PARTE: MODELADO Y ADMINISTRACIÓN
+ - Árbol de directorios:
 
 ~~~
-C:.
-│   indice_proyecto_pdf_SCOUTS.txt
-│   README.md
+./
 │
-├───SAL_DB
-│   ├───BAKs
-│   │       SAL_SCOUTS.bak
-│   │       SAL_SCOUTS_log.bak
-│   │
-│   └───SQL_scripts
-│           SALnewPerson.sql
-│           SALprofit_lossCalc.sql
-│           SAL_Filetable.sql
-│           SAL_particiones.sql
-│           SAL_SCOUTS_SSMS.sql
-│           SAL_temporal_tables.sql
-│           SAL_triggers.sql
-│           SAL_users_views_permissions.sql
-│
-├───SAL_SCOUTS_model
-│   │   sal_boy_scouts_bd.dmd
-│   │   SAL_SCOUTS_logical_model.pdf
-│   │   SAL_SCOUTS_physical_diagram.pdf
-│   │   SAL_SCOUTS_relational_model.pdf
-│   │
-│   └───sal_boy_scouts_bd
-└───SAL_proyecto_SCOUTS.pdf
+└───1a_parte
+    │
+    ├───SAL_DB
+    │   ├───BAKs
+    │   │       SAL_SCOUTS.bak
+    │   │       SAL_SCOUTS_log.bak
+    │   │
+    │   └───SQL_scripts
+    │           SALnewPerson.sql
+    │           SALprofit_lossCalc.sql
+    │           SAL_Filetable.sql
+    │           SAL_particiones.sql
+    │           SAL_SCOUTS_SSMS.sql
+    │           SAL_temporal_tables.sql
+    │           SAL_triggers.sql
+    │           SAL_users_views_permissions.sql
+    │
+    ├───SAL_SCOUTS_model
+    │   │   sal_boy_scouts_bd.dmd
+    │   │   SAL_SCOUTS_logical_model.pdf
+    │   │   SAL_SCOUTS_physical_diagram.pdf
+    │   │   SAL_SCOUTS_relational_model.pdf
+    │   │
+    │   └───sal_boy_scouts_bd
+    └───SAL_proyecto_SCOUTS.pdf
 ~~~
 
 
@@ -113,3 +116,64 @@ El índice del archivo PDF es el siguiente:
 ~~~
 
 
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+# 2ª PARTE: SEGURIDAD
+ - Árbol de directorios:
+
+ ~~~
+./
+│
+└───2a_parte
+    │
+    ├───backup
+    │   │   SAL_SCOUTS_Full_TDE.bak
+    │   │   SAL_SCOUTS_log_TDE.bak
+    │   │   SAL_SCOUTS_TDEkey.pvk
+    │   │   SAL_SCOUTS_TDEScout.cer
+    │   │
+    │   └───scripts
+    │           SAL_always_encrypted.sql
+    │           SAL_data_masking.sql
+    │           SAL_encrypt_col_bkp_tde.sql
+    │           SAL_RLS.sql
+    │
+    │   indice_proyecto_SCOUTS_2.txt
+    └───proyecto_bbdd2_SEGURIDAD.pdf
+~~~
+
+
+
+El índice del archivo PDF es el siguiente:
+
+ÍNDICE
+
+~~~
+1. Introducción
+2. Encriptación (Encryption)
+ 2.1. Tools (VeraCrypt, Let's Encrypt)
+ 2.2. Encriptación de Columnas de BD
+ 2.3. Encriptación de Backup de BD
+ 2.4. Encrip. BD TDE (Transparent Data Encryption)
+ 2.5. Funciones
+  2.5.1. DDM (Dynamic Data Masking)
+  2.5.2. Row Encryption (RLS,Row-Level Security)
+ 2.6. Always Encrypted
+ 2.7. Tareas sobre BD en SSMS
+  2.7.1. Data Discovery and Classification
+  2.7.2. Vulnerability Assessment
+3. Auditoría (Audit)
+ 3.1. Auditoría de Serv. y Especif.  de auditoría de serv.
+ 3.2. Especificación de auditoría de BD
+ 3.3. Bonus auditoría de BD
+4. Legislación (GDPR - General Data Prot. Reg. (EU))
+5. Ataques
+ 5.1. DDoS
+ 5.2. Injection SQL
+ 5.3. Ransomware
+ 5.4. Tools
+6. Docker
+ 6.1. Docker aplicado a BD
+
+~~~

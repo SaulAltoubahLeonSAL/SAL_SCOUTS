@@ -1,0 +1,25 @@
+- 1. Introducción
+- 2. Encriptación (Encryption)
+ · 2.1. Tools (VeraCrypt, Let's Encrypt)
+ · 2.2. Encriptación de Columnas de BD
+ · 2.3. Encriptación de Backup de BD
+ · 2.4. Encrip. BD TDE (Transparent Data Encryption)
+ · 2.5. Funciones
+   · 2.5.1. DDM (Dynamic Data Masking)
+   · 2.5.2. Row Encryption (RLS,Row-Level Security)
+ · 2.6. Always Encrypted
+ · 2.7. Tareas sobre BD en SSMS
+   · 2.7.1. Data Discovery and Classification
+   · 2.7.2. Vulnerability Assessment
+- 3. Auditoría (Audit)
+ · 3.1. Auditoría de Serv. y Especif.  de auditoría de serv.
+ · 3.2. Especificación de auditoría de BD
+ · 3.3. Bonus auditoría de BD
+- 4. Legislación (GDPR - General Data Prot. Reg. (EU))
+- 5. Ataques
+ · 5.1. DDoS
+ · 5.2. Injection SQL
+ · 5.3. Ransomware
+ · 5.4. Tools
+- 6. Docker
+ · 6.1. Docker aplicado a BD
