@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sal_boy_scouts_bd" id="6764C1F8-CFDB-3F34-37DB-88DE5949C936" version="3.5">
-<createdBy>Sassaulo</createdBy>
-<createdTime>2021-02-16 18:34:00 UTC</createdTime>
-<ownerDesignName>sal_boy_scouts_bd</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>6764C1F8-CFDB-3F34-37DB-88DE5949C936</designId>
-</OSDM_Design>
